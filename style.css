@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body,
+#wrap {
+  height: 100%;
+  font-family: 'Nunito',
+  sans-serif;
+  color: white;
+}
+
+body>#wrap {
+  height: auto;
+  min-height: 100%;
+}
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  /* -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; */
+}
+
+body{
+  background-color: #1F2028;
+}
+
+main#box{
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  width: 30rem;
+  height: 30rem;
+  background-color: #212333;
+  overflow: hidden;
+  z-index: 0;
+}
+
+.layer{
+  position: absolute;
+  display:block;
+}
+
+.star{
+  width: 25rem;
+  height: 25rem;
+  top: 0rem;
+  left: 3rem;
+}
+
+.moon{
+  width: 2rem;
+  top:13rem;
+  left: 11rem;
+}
+
+.mosque{
+  top: 22rem;
+  left: 16.5rem;
+}
+
+.mosque2{
+  top:22rem;
+  left:14.6rem
+}
+
+.window{
+  width: 35rem;
+  top: -2.5rem;
+  left: -2.5rem;
+}
+
+.text-wrap{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.between{
+  width: 24rem;
+  height: 1rem;
+}
+
+.heading{
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.text{
+  width: 18rem;
+  font-size: 2rem;
+}
+
+.right{
+  text-align: right;
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: .5rem 0;
+  color: #a8a8a8;
+}
+
+footer > a{
+  text-decoration: none;
+  color: #a8a8a8;
+
+}
+
+footer > a:hover{
+  color: #dbdbdb;
+}
